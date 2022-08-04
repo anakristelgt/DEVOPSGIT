@@ -1,0 +1,165 @@
+ | user: ♣anakristelgt♣
+ |---> UID: 1000
+ |---> GID: 1000
+ |---> home folder: /home/anakristelgt
+*------------------|
+ | user: ♣_apt♣
+ |---> UID: 100
+ |---> GID: 65534
+ |---> home folder: /nonexistent
+*------------------|
+ | user: ♣backup♣
+ |---> UID: 34
+ |---> GID: 34
+ |---> home folder: /var/backups
+*------------------|
+ | user: ♣bin♣
+ |---> UID: 2
+ |---> GID: 2
+ |---> home folder: /bin
+*------------------|
+ | user: ♣daemon♣
+ |---> UID: 1
+ |---> GID: 1
+ |---> home folder: /usr/sbin
+*------------------|
+ | user: ♣games♣
+ |---> UID: 5
+ |---> GID: 60
+ |---> home folder: /usr/games
+*------------------|
+ | user: ♣gnats♣
+ |---> UID: 41
+ |---> GID: 41
+ |---> home folder: /var/lib/gnats
+*------------------|
+ | user: ♣irc♣
+ |---> UID: 39
+ |---> GID: 39
+ |---> home folder: /run/ircd
+*------------------|
+ | user: ♣landscape♣
+ |---> UID: 111
+ |---> GID: 117
+ |---> home folder: /var/lib/landscape
+*------------------|
+ | user: ♣list♣
+ |---> UID: 38
+ |---> GID: 38
+ |---> home folder: /var/list
+*------------------|
+ | user: ♣lp♣
+ |---> UID: 7
+ |---> GID: 7
+ |---> home folder: /var/spool/lpd
+*------------------|
+ | user: ♣lxd♣
+ |---> UID: 999
+ |---> GID: 100
+ |---> home folder: /var/snap/lxd/common/lxd
+*------------------|
+ | user: ♣mail♣
+ |---> UID: 8
+ |---> GID: 8
+ |---> home folder: /var/mail
+*------------------|
+ | user: ♣man♣
+ |---> UID: 6
+ |---> GID: 12
+ |---> home folder: /var/cache/man
+*------------------|
+ | user: ♣messagebus♣
+ |---> UID: 103
+ |---> GID: 104
+ |---> home folder: /nonexistent
+*------------------|
+ | user: ♣news♣
+ |---> UID: 9
+ |---> GID: 9
+ |---> home folder: /var/spool/news
+*------------------|
+ | user: ♣nobody♣
+ |---> UID: 65534
+ |---> GID: 65534
+ |---> home folder: /nonexistent
+*------------------|
+ | user: ♣pollinate♣
+ |---> UID: 105
+ |---> GID: 1
+ |---> home folder: /var/cache/pollinate
+*------------------|
+ | user: ♣proxy♣
+ |---> UID: 13
+ |---> GID: 13
+ |---> home folder: /bin
+*------------------|
+ | user: ♣root♣
+ |---> UID: 0
+ |---> GID: 0
+ |---> home folder: /root
+*------------------|
+ | user: ♣sshd♣
+ |---> UID: 106
+ |---> GID: 65534
+ |---> home folder: /run/sshd
+*------------------|
+ | user: ♣sync♣
+ |---> UID: 4
+ |---> GID: 65534
+ |---> home folder: /bin
+*------------------|
+ | user: ♣syslog♣
+ |---> UID: 107
+ |---> GID: 113
+ |---> home folder: /home/syslog
+*------------------|
+ | user: ♣systemd-network♣
+ |---> UID: 101
+ |---> GID: 102
+ |---> home folder: /run/systemd
+*------------------|
+ | user: ♣systemd-resolve♣
+ |---> UID: 102
+ |---> GID: 103
+ |---> home folder: /run/systemd
+*------------------|
+ | user: ♣systemd-timesync♣
+ |---> UID: 104
+ |---> GID: 105
+ |---> home folder: /run/systemd
+*------------------|
+ | user: ♣sys♣
+ |---> UID: 3
+ |---> GID: 3
+ |---> home folder: /dev
+*------------------|
+ | user: ♣tcpdump♣
+ |---> UID: 109
+ |---> GID: 115
+ |---> home folder: /nonexistent
+*------------------|
+ | user: ♣tss♣
+ |---> UID: 110
+ |---> GID: 116
+ |---> home folder: /var/lib/tpm
+*------------------|
+ | user: ♣usbmux♣
+ |---> UID: 112
+ |---> GID: 46
+ |---> home folder: /var/lib/usbmux
+*------------------|
+ | user: ♣uucp♣
+ |---> UID: 10
+ |---> GID: 10
+ |---> home folder: /var/spool/uucp
+*------------------|
+ | user: ♣uuidd♣
+ |---> UID: 108
+ |---> GID: 114
+ |---> home folder: /run/uuidd
+*------------------|
+ | user: ♣www-data♣
+ |---> UID: 33
+ |---> GID: 33
+ |---> home folder: /var/www
+*------------------|
