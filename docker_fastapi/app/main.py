@@ -19,10 +19,14 @@ def get_db():
 @app.get("/") #Decorador
 async def root(): #Función asíncrona
     return {"message":"Hello World!"}
-
+    
 @app.get("/myname/{name}") #Decorador
-async def myName(name: str): #Función asíncrona
+async def user(name: str): #Función asíncrona
     return {"message": f"Hello {name}, this is my new API!"}
+
+@app.get("/practica") #Decorador
+async def myName(): #Función asíncrona
+    return {"message": "I'm Ana Kristel GT, this is my new API!"}
 
 @app.get("/picture") #Decorador
 async def pict(): #Función asíncrona
@@ -35,11 +39,9 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
         raise HTTPException(status_code=400, detail="User already registered")
     return crud.create_user(db=db, user=user)
 
-
 @app.post("/users/{user_id}/", response_model=schemas.UserBase)
 def get_user_by_id(user_id: int, db: Session = Depends(get_db)):
     return crud.get_user(db=db, user_id=user_id)
-
 
 @app.post("/users/", response_model=List[schemas.UserData])
 async def get_users(db: Session = Depends(get_db)):
